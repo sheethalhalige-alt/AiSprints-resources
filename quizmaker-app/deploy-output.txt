@@ -1,0 +1,40 @@
+﻿
+ΓöîΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÉ
+Γöé OpenNext ΓÇö Cloudflare deploy Γöé
+ΓööΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÿ
+
+node.exe : WARN OpenNext is not fully compatible with Windows.
+At C:\Users\VJAYA12\AppData\Roaming\NVM\v22.15.0\npx.ps1:29 char:3
++   & $NODE_EXE $NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WARN OpenNext i...e with Window 
+   s.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARN For optimal performance, it is recommended to use Windows Subsystem for 
+Linux (WSL).
+WARN While OpenNext may function on Windows, it could encounter 
+unpredictable failures during runtime.
+Using vars defined in .dev.vars
+Incremental cache does not need populating
+Tag cache does not need populating
+
+ Γ¢à∩╕Å wrangler 4.54.0 (update available 4.57.0)
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+≡ƒîÇ Building list of assets...
+Γ£¿ Read 109 files from the assets directory C:\AILearning\AiSprints-resources\quizmaker-app\.open-next\assets
+≡ƒîÇ Starting asset upload...
+No updated asset files to upload. Proceeding with deployment...
+Total Upload: 6521.82 KiB / gzip: 1256.28 KiB
+Worker Startup Time: 36 ms
+Your Worker has access to the following bindings:
+Binding                                                  Resource         
+env.quizmaker_app_database (quizmaker-app-database)      D1 Database      
+env.WORKER_SELF_REFERENCE (quizmaker-app)                Worker           
+env.IMAGES                                               Images           
+env.ASSETS                                               Assets           
+
+Uploaded quizmaker-app (20.57 sec)
+Deployed quizmaker-app triggers (5.32 sec)
+  https://quizmaker-app.sheethal-halige.workers.dev
+Current Version ID: 6804d127-8f6f-4967-b2e2-d2ad6d20e273
